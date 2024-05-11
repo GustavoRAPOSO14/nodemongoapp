@@ -1,0 +1,35 @@
+<main>
+    <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="container-fluid py-5">
+            <h3> Nova Equipe: </h3>
+            <div class="card">
+                <div class="card-body">
+                    <form action="/rota_equipes/equipes/nova" method="POST">
+
+                        <label for="nome">Nome: </label>
+                        <input type="text" name="nome" id="nome" placeholder="Digite o nome da equipe"
+                            class="form-control">
+                        <br>
+
+                        <label for="ano">Ano: </label>
+                        <input type="number" name="ano" id="ano" placeholder="Digite o ano de fundação: "
+                            class="form-control">
+                        <br>
+
+                        <label for="pais">País: </label>
+                        <input type="text" name="pais" id="pais" placeholder="Digite o pais" class="form-control">
+                        <br>
+
+                        <label for="mundial">Mundiais: </label>
+                        <input type="number" name="mundial" id="mundial" placeholder="Mundiais conquistados"
+                            class="form-control">
+                        <br>
+
+                        <button type="submit" class="btn btn-sucess">Adicionar Equipe</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
