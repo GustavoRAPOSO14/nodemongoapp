@@ -6,8 +6,6 @@ const app = express()
 const rota_equipes = require('./controllers/EquipeControllers')
 const rota_jogadores = require('./controllers/JogadorControllers')
 
-app.use(express.static(__dirname + '../../' + '/src/views/layouts'));
-
 
 app.use(bodyParser.urlencoded({extended: false}))
 app.use(bodyParser.json())
